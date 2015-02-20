@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataManager>
+  <Folder Name="Folder1" WindowX="50" WindowY="50" ImageW="600" ImageH="450" Transparent="0.7">
+    <Data Name="Data1" Value="img\1.jpg"></Data>
+    <Data Name="Data2" Value="img\2.jpg"></Data>
+  </Folder>
+<Folder Name="Folder1" WindowX="100" WindowY="100" ImageW="300" ImageH="220" Transparent="1">
+    <Data Name="Data3" Value="img\3.jpg"></Data>
+    <Data Name="Data4" Value="img\4.jpg"></Data>
+  </Folder>
+</DataManager>
