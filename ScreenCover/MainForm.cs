@@ -220,7 +220,7 @@ namespace ScreenCover
         {
             if (MessageBox.Show("确定要保存 \"窗体位置 大小 透明度\" 到文件吗？", "提示", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                Folder f = new Folder(DataDM.FolderList[TopTab.Tag.ToString()].Name);
+                Folder f = (TopTab.Tag as Folder);
                 f.WindowX = this.Location.X;
                 f.WindowY = this.Location.Y;
                 f.ImageW = this.Width;

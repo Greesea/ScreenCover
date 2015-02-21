@@ -26,17 +26,10 @@ namespace ScreenCover
 
         public void ResizeControl()
         {
-            Regex regex = new Regex(@"^[\u4E00-\u9FA5]{0,}$");
-            int count = 0;
-            foreach (char c in this.Text)
-            {
-                if (regex.IsMatch(c.ToString()))
-                {
-                    count++;
-                }
-            }
-
-            this.Size = new Size((10 + Convert.ToInt32((Math.Round(((this.Text.Length - count) * 7.5) + (count * 15)))) + 10), 30);
+            this.AutoSize = true;
+            int width = this.Size.Width;
+            this.AutoSize = false;
+            this.Size = new Size(5 + width + 5, 30);
         }
     }
 
