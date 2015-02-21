@@ -11,6 +11,8 @@
 	可修改Data\Data.xml来自定义显示的图片和文本
 
 更新日志：
+v1.231(2015年2月21日 22:23)
+	修正了读取时的位置
 v1.23(2015年2月21日 12:59)
 	修正了无法保存的问题
 	现在会正确显示分组的文本
@@ -32,4 +34,5 @@ v1.1(2015年2月19日 01:44)
 v1.0(2015年2月19日 00:59)
 	基本功能完成
 
+Source Code : https://github.com/Greesea/ScreenCover/
 Programmed by Greesea,Icon and Map Data by @1092

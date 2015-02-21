@@ -224,7 +224,7 @@ namespace ScreenCover
                 f.WindowX = this.Location.X;
                 f.WindowY = this.Location.Y;
                 f.ImageW = this.Width;
-                f.ImageH = this.Height;
+                f.ImageH = this.Height - 31;
                 f.Transparent = this.Opacity;
 
                 if (DataDM.UpdateFolderSettings(f))
